@@ -38,7 +38,6 @@ class Point:
     def getAntiTrigoPoint(self) -> Point:
         return self.__anti_trigo_point
 
-   40
 
     def getXLisse(self) -> int:
         return (1*self.getTrigoPoint().getTrigoPoint().getX() + 
